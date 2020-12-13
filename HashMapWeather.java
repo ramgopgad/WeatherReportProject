@@ -13,6 +13,5 @@ public class HashMapWeather {
 		String city=scanner.nextLine(); //read city name
 		String val=(String)HMWeather.get(city); //get city name
 		System.out.println("Temperatures " + val); //check the value
-
 	}
 }
